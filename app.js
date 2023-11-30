@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const methodOverride = require('method-override');
 
 /* ROUTES IMPORTS */
 
@@ -12,6 +13,8 @@ const authRoutes = require ('./src/routes/auth.routes');
 const PORT = 3004;
 
 app.use(express.static('public'));
+app.use(methodOverride('_method'))
+
 
 app.use('/', mainRoutes);
 app.use('/shop', shopRoutes);
