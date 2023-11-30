@@ -16,5 +16,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiburoncin748/Challenge-integrador.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tiburoncin748/Challenge-integrador/issues"
+  },
+  "homepage": "https://github.com/tiburoncin748/Challenge-integrador#readme"
 }
