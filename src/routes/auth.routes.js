@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-
+const controller = require('../controllers/auth.controller');
 
 router.get('/login', (req, res) => res.send('This is the LOGIN view'));
 router.post('/login', (req, res) => res.send('This is the LOGIN SUBMIT view'));
