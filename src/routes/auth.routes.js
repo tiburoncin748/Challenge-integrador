@@ -1,13 +1,18 @@
 const express = require('express');
 const router = express.Router();
 
-const controller = require('../controllers/auth.controller');
+const {
+    login,
+    doLogin,
+    register,
+    doSignUp,
+    logout,}  = require('../controllers/auth.controller');
 
-router.get('/login', (req, res) => res.send('This is the LOGIN view'));
-router.post('/login', (req, res) => res.send('This is the LOGIN SUBMIT view'));
-router.get('/register', (req, res) => res.send('This is the REGISTER view'));
-router.post('/register', (req, res) => res.send('This is the para submitear un register view'));
-router.get('/logout', (req, res) => res.send('This is the LOGOUT view'));
+router.get('/login', login);
+router.post('/login', doLogin);
+router.get('/register', register);
+router.post('/register', doSignUp);
+router.get('/logout', logout);
 
 
 
