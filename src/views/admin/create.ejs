@@ -1,11 +1,11 @@
 <%- include('../partials/header')%>
     <main id="create" class="container">
         <h2 class="create__title">CREAR NUEVO ITEM</h2>
-        <form class="create__form" action="/admin/create" method="POST" enctype="application/x-www-form-urlencoded">
+        <form class="create__form" action="/admin/create" method="POST" enctype="multipart/form-data">
             <div class="form__flex">
                 <div class="form__box--flex">
-                    <label class="form__label" for="collection">Categoría:</label>
-                    <select class="form__select" name="collection" id="collection" required>
+                    <label class="form__label" for="category">Categoría:</label>
+                    <select class="form__select" name="category" id="collection" required>
                         <option value="" disabled selected hidden>Seleccionar</option>
                         <option value="Figuras Coleccionables">Figuras Coleccionables</option>
                         <option value="Llaveros">Llaveros</option>
@@ -13,8 +13,8 @@
                     </select>
                 </div>
                 <div class="form__box--flex">
-                    <label class="form__label" for="collection">Licencia:</label>
-                    <select class="form__select" name="collection" id="collection" required>
+                    <label class="form__label" for="licence">Licencia:</label>
+                    <select class="form__select" name="licence" id="licence" required>
                         <option value="" disabled selected hidden>Seleccionar</option>
                         <option value="starwars">Star Wars</option>
                         <option value="pokemon">Pokemon</option>
