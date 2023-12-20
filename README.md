@@ -11,4 +11,9 @@ Este es un proyecto como parte del challenge integrador para el curso de NodeJS 
 - JavaScript 
 
 
-__Autores:__ Grupo 13
+__Autores:__ Grupo 13 - Pombo Lautaro J.
+                      - Mendez Daniela
+                      - Lorenzo Augusto
+                      - Astorga Mariano
+                      - Uzcategui Alleen
+                      - Huertas Martinez Carolina Adriana
